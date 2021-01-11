@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Catcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+      <div class="score">
+          <p>Score: <span id="score"></span></p>
+          <p>Time: <span id= "time">01:00</span></p>
+          <p>Highscore: <span id="highscore"></span></p>
+          <progress id="progress-bar" value="0" max="10"></progress>
+      </div>
+      <div class="game" id = "game">
+          <div id="d1"></div>
+          <div id="d2"></div>
+          <div id="d3"></div>
+          <div id="d4"></div>
+          <div id="d5"></div>
+          <div id="d6"></div>
+          <div id="d7"></div>
+          <div id="d8"></div>
+          <div id="d9"></div>
+      </div>
+
+      <div id="result">
+          <input type="button" value="Menu" id="menu" onclick="menu()">
+          <p class="popup" id="showScore"> OOPS..!! Better luck next time</p>
+      </div>
+  </main>  
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

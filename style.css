@@ -1,0 +1,90 @@
+body{
+    background-image: url('https://sherkhan0786.github.io/jsWhackMouse/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+progress{
+    appearance: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 1em;
+    width: 10em;
+    vertical-align: -0.2em;
+}
+
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: center;
+}
+#d1, #d2, #d3, #d4, #d5, #d6, #d7, #d8, #d9{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin: 30px;
+    display: inline-flex;
+    border: 20px solid #272420;
+    border-radius: 25px 250px 100px 290px;
+    
+}
+#result{
+    background: black;
+    height: 200px;
+}
+#menu{
+    background: rgb(32, 168, 32);
+    border: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 73px;
+    cursor: pointer;
+    outline: none;
+}
+.popup{
+    height: 200px;
+    margin-top: 75px;
+    color:white;
+    font-size: 28px;
+}
+.container{
+    background-color: black;
+    margin-top: 50px;
+    width: fit-content;
+    height: 550px;
+    width: 630px;
+}
+#startbtn{
+    background: rgb(32, 168, 32);
+    border: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    position: absolute;
+    left: 250px;
+    cursor: pointer;
+    outline: none;
+}
+#result{
+    display: none;
+}
+.rat{
+    height: 200px;
+    width: 200px;
+}
